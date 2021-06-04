@@ -21,16 +21,20 @@ Required parameters:
 You can add results limiter to each off the queries in order to limit the amount of returned result values
 
  \*\* If NOT specified in the url the default returned results will be 25 \*\*
+#
 
 **Example url's:**
 
 - This url will send the &quot;queen&quot; search query to Gipty service on local host server and will limit the search results to the top 5.
 
-_https://localhost:44348/Giphy/search?searchVal=queen&amp;resLimit=5_
+	_https://localhost:44348/Giphy/search?searchVal=queen&resLimit=5_
 
 - This url will query the Gipty service for the top 10 current trending results
 
-_https://localhost:44348/Giphy/trending?reslimit=10_
+	_https://localhost:44348/Giphy/trending?reslimit=10_
+
+#
+
 ### Use ```appsettings.json``` file to define your settings
 ```
 {
