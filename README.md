@@ -41,10 +41,8 @@ _https://localhost:44348/Giphy/trending?reslimit=10_
   },
   "AllowedHosts": "*",
   "ApiBaseURL": "https://api.giphy.com/v1/gifs/",
-  "ApiKey": "Your-Giphy-API-Key", 
-  // <-------------- don’t forget to set your Giphy API key
-  "CacheExpirationInSeconds": 3600 
-  // <-------------- define a cache expiry of 1 hour (3600 sec)
+  "ApiKey": "Your-Giphy-API-Key",   // <---- don’t forget to set your Giphy API key
+  "CacheExpirationInSeconds": 3600   // <---- define a cache expiry of 1 hour (3600 sec)
 }
 
 ```
